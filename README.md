@@ -66,28 +66,10 @@ Com ele, é possível pesquisar CNPJs e visualizar dados da empresa como **razã
 
 ---
 
-## 🌐 Deploy no GitHub Pages
-
-1. Suba seu repositório para o GitHub.  
-2. Vá em **Configurações > Pages**.  
-3. Em **Source**, selecione a branch `main` (ou `master`) e a pasta **/root**.  
-4. O GitHub Pages vai gerar um link no formato:
-
-👉 https://ReiBrito.github.io/Consulta-de-CNPJ/
-
----
-
 ## 🖼️ Demonstração
 
-(Adicione aqui um print ou GIF da aplicação funcionando)
-
----
-
-## 📌 Melhorias Futuras
-
-- 🔍 Implementar autocomplete de CNPJs recentes  
-- 💾 Salvar histórico de consultas no LocalStorage  
-- 🌐 Publicar a aplicação no **GitHub Pages** ou **Vercel**  
+Teste o sistema
+👉 https://ReiBrito.github.io/Consulta-de-CNPJ/
 
 ---
 
