@@ -72,6 +72,11 @@ Teste o sistema
 👉 https://ReiBrito.github.io/Consulta-de-CNPJ/
 
 ---
+## 🖼️ Tela Inicial
+
+![Consulta de CNPJ](img/print.png)
+
+---
 
 ## 👨‍💻 Autor
 
