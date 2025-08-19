@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta CNPJ - BrasilAPI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-building"></i> Consulta de CNPJ</h1>
+        <p class="subtitle">Utilize a BrasilAPI para consultar dados de empresas</p>
+        
+        <div class="search-box">
+            <input type="text" id="cnpjInput" placeholder="Digite o CNPJ (apenas números)" maxlength="14">
+            <button id="searchButton"><i class="fas fa-search"></i> Consultar</button>
+            <button id="clearButton"><i class="fas fa-trash-alt"></i> Limpar</button>
+        </div>
+        
+        <div class="loading" id="loading" style="display: none;">
+            <i class="fas fa-spinner fa-spin"></i> Carregando...
+        </div>
+        
+        <div class="error" id="error" style="display: none;"></div>
+        
+        <div class="result-container" id="resultContainer" style="display: none;">
+            <h2><i class="fas fa-info-circle"></i> Dados da Empresa</h2>
+            <div class="result-grid" id="resultContent"></div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Dados fornecidos por <a href="https://brasilapi.com.br" target="_blank">BrasilAPI</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
